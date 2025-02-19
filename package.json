@@ -1,0 +1,24 @@
+{
+  "name": "projetocypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+        "cy:open:api": "cypress open --config-file api-qa.js",
+        "cy:open:ui": "cypress open --config-file ui-qa.js --browser chrome ",
+
+        "test:ui": "cypress open --env enviroment=ui",
+        "test:api": "cypress open --env enviroment=api",
+        "test:local": "cypress open --env enviroment=local",
+        "run:local": "cypress run --env enviroment=local"
+
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.0.3",
+    "mocha": "^8.2.1",
+    "mochawesome": "^7.1.3"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "stats": {
+    "suites": 0,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-02-19T00:21:35.128Z",
+    "end": "2025-02-19T00:21:40.098Z",
+    "duration": 4970,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "9c0d6075-8d95-472a-8636-23accf330c5a",
+      "title": "",
+      "fullFile": "cypress\\e2e\\login.cy.js",
+      "file": "cypress\\e2e\\login.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [
+        {
+          "title": "Login user successfuly",
+          "fullTitle": "Login user successfuly",
+          "timedOut": null,
+          "duration": 4943,
+          "state": "passed",
+          "speed": "fast",
+          "pass": true,
+          "fail": false,
+          "pending": false,
+          "context": null,
+          "code": "_login.default.FillValidUserCredentials();\n_login.default.FillInvalidUserCredentials();\n_login.default.ErrorMessageLogin();",
+          "err": {},
+          "uuid": "400466f1-196b-4303-86fe-80de1fffa0d8",
+          "parentUUID": "9c0d6075-8d95-472a-8636-23accf330c5a",
+          "isHook": false,
+          "skipped": false
+        }
+      ],
+      "suites": [],
+      "passes": [
+        "400466f1-196b-4303-86fe-80de1fffa0d8"
+      ],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 4943,
+      "root": true,
+      "rootEmpty": false,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/reports",
+        "overwrite": false,
+        "html": true,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
